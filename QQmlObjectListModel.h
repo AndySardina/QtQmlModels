@@ -88,8 +88,7 @@ public:
     {
         static QSet<QByteArray> roleNamesBlacklist;
         if (roleNamesBlacklist.isEmpty ()) {
-            roleNamesBlacklist << QByteArrayLiteral ("id")
-                               << QByteArrayLiteral ("index")
+            roleNamesBlacklist << QByteArrayLiteral ("index")
                                << QByteArrayLiteral ("class")
                                << QByteArrayLiteral ("model")
                                << QByteArrayLiteral ("modelData");
